@@ -6,9 +6,17 @@ Tiao Yi Tiao, loosely translated as Jump Jump, is a mini game on Wechat. Players
 
 ## Getting Started
 
-Currently, only Android smartphone is supported. Before you run the script [JumpJump](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/src/JumpJump.m) you need to install and setup Android Debug Bridge (adb) which can help us catch screenshot, pull images and simulate touch events. To use ADB with your Android device, you must enable USB debugging in the device system settings, under Developer options.
+Currently, only Android smartphone is supported. Before you run the script [JumpJump](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/src/JumpJump.m) you need to install and setup Android Debug Bridge (adb) which can catch screenshot, pull images and simulate touch events. To use ADB with your Android device, you must enable USB debugging in the device system settings, under Developer options.
 
 ## Result
 
+Running the JumpJump script you will get some results as follows:
+
 ![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/ellipse.png)
 ![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/rectangle.png)
+
+## Failure
+
+Detecting ellipse is a time-consuming task. To reduce computational complexity, we do some optimization which may cause detection failures as follow:
+
+![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/bad.png)
