@@ -15,8 +15,8 @@ Running the JumpJump script you will get some results as follows:
 ![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/ellipse.png)
 ![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/rectangle.png)
 
-## Failure
+## Note
 
-Detecting ellipse is a time-consuming task. To reduce computational complexity, we do some optimization which may cause detection failures as follow:
+Detecting ellipse is a time-consuming task. To reduce computational complexity, we do some optimization which may cause detection failure as follow:
 
 ![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/bad.png)
