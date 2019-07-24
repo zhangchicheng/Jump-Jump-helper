@@ -2,7 +2,7 @@
 
 Tiao Yi Tiao, loosely translated as Jump Jump, is a mini game on Wechat. Players move a balck block from one platform to another by tapping the smartphone screen. A point is scored for each successful jump. Players need to tap the screen longer when the jumping distance between the platforms is greater. This repo will help you get high score in the game automatically.
 
-![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/game.png)
+<img src=https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/game.png width="200">
 
 ## Getting Started
 
@@ -12,11 +12,10 @@ Currently, only Android smartphone is supported. Before you run the script [Jump
 
 Running the JumpJump script you will get some results as follows:
 
-![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/ellipse.png)
-![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/rectangle.png)
+<img src=https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/ellipse.png width="250"> <img src=https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/rectangle.png width="250">
 
 ## Note
 
 Detecting ellipse is a time-consuming task. To reduce computational complexity, we do some optimization which may cause detection failure as follow:
 
-![alt text](https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/bad.png)
+<img src=https://github.com/zhangchicheng/Jump-Jump-helper/blob/master/images/bad.png width="250">
